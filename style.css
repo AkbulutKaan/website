@@ -111,3 +111,17 @@
     margin-top: 10px;
     text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 100px; /* Adjust as needed */
+        height: 100px; /* Adjust as needed */
+        top: -40px; /* Adjust as needed */
+        left: -50px; /* Adjust as needed */
+    }
+
+    .center h3, .center h4 {
+        font-size: 20px; /* Adjust as needed */
+        width: 100%; /* Adjust as needed */
+    }
+}
